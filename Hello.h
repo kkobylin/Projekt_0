@@ -4,9 +4,9 @@ using namespace std;
 
 class Hello
 {
-   public:
+   private:
 
-   string tresc;
+   string tresc="Hello world";
 
    void wypisz();
 };
