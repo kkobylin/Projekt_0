@@ -1,14 +1,15 @@
-#include <iostream>
+#ifndef Hello_definition
+#define Hello_definition
 
-using namespace std;
+#include <iostream>
 
 class Hello
 {
    private:
 
-   string tresc="Hello world";
-   
-   public:
-   
+   std::string tresc="Hello world";
+
+    public:
    void wypisz();
 };
+#endif
