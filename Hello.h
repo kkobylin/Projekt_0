@@ -7,9 +7,10 @@ class Hello
 {
    private:
 
-   std::string tresc="Hello world";
+   std::string tresc;
 
-    public:
+   public:
+   
    void wypisz();
 };
 #endif
