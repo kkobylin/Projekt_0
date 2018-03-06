@@ -7,6 +7,8 @@ class Hello
    private:
 
    string tresc="Hello world";
-
+   
+   public:
+   
    void wypisz();
 };
